@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/standing"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_green"
+        android:title="@string/standing_text"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/event"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_circle_green"
+        android:title="@string/event_text"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/team"
+        android:enabled="true"
+        android:icon="@drawable/ic_people_green"
+        android:title="@string/team_text"
+        app:showAsAction="ifRoom" />
+
+</menu>

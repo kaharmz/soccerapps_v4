@@ -1,0 +1,126 @@
+#Unit Test
+1. Memastikan getEventDetail(), terpanggil dengan baik
+2. Memastikan getDetailLeague(), terpanggil dengan baik
+3. Memastikan getDetailTeam(), terpanggil dengan baik
+4. Memastikan getEvenTeamList(), terpanggil dengan baik //Last
+5. Memastikan getEvenTeamList(), terpanggil dengan baik //Next
+6. Memastikan getEventList(), terpanggil dengan baik //Last
+7. Memastikan getEventList(), terpanggil dengan baik //Next
+8. Memastikan searchEventList(), terpanggil dengan baik
+9. Memastikan searchTeamList(), terpanggil dengan baik
+10. Memastikan getTableLeague(), terpanggil dengan baik
+11. Memastikan getAllTeam(), terpanggil dengan baik
+
+
+#Instrument test
+I. Add Team
+1. Aplikasi terbuka dan menampilkan beberapa view
+2. Memastikan bahwa terdapat "bottom navigation" dengan item home" dan memberikan tindakan klik
+3. Memastikan bahwa terdapat list dengan beberapa item "league" yang ditampilkan
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 4
+5. Memberikan tindakan klik pada item untuk posisi ke 4
+6. Memastikan terdapat icon di pojok kanan atas setelah proses klik sebelumnya
+7. Memberikan tindakan klik pada icon tersebut
+8. Memastikan terdapat tiga item di bottom navigation "item standing, item event, item team"
+9. Memberikan tindakan klik pada "item team"
+10. Memastikan bahwa list dengan beberpa item "team" ditampilkan
+11. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 5
+12. Memberikan tindakan klik pada item untuk posisi ke 5
+13 Memastikan icon dipojok kanan dan beberapa item dibawahnya ditampilkan setelah proses sebelumnya 
+14. Meberikan tindakan klik pada icon tersebut
+15. Memastikan pemebritahuan muncul "Data Added to Favorite" karna proses sebelumnya
+16. Memberikan tindakan klik sebanyak tiga kali untuk kembali ke menu utama
+17. Memastikan item "favorite" ditampilkan di menu utama dan memberikan tindakan klik
+18. Memastikan tindakan geser dua kali ke ke kiri berjalan dengan baik
+19. Memastikan bahwa terdapat beberap list dengan item "Logo team"
+20. Memastikan bahwa list dapat di scroll dengan baik ke posisi item pertama
+21. Memberikan tindakan klik pada item untuk posisi pertama
+22. Memastikan terdapat icon dipojok kanan atas dan beberapa view di bawahnya
+23. Memeberikan tindakan klik pada icon tersebut
+24. Memstikan "Data has been deleted" tampil karna proses sebelumnya
+
+II. Search Team
+1. Aplikasi terbuka dan menampilkan beberapa view
+2. Memastikan bahwa terdapat "bottom navigation" dengan item home" dan memberikan tindakan klik
+3. Memastikan bahwa terdapat list dengan beberapa item "league" yang ditampilkan
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 3
+5. Memberikan tindakan klik pada item untuk posisi ke 3
+6. Memastikan terdapat icon di pojok kanan atas setelah proses klik sebelumnya
+7. Memberikan tindakan klik pada icon tersebut
+8. Memastikan terdapat tiga item di bottom navigation "item standing, item event, item team"
+Memberikan tindakan klik pada "item team"
+9. Memastikan bahwa icon pencarian ditampilkan di pojok kanan atas
+10. Memaberiakan tindakan klik pada icon pencarian 
+11. Memastikan bahwa suatu text "Napoli" ditampilkan 
+12. Memastian bahwa hasil dari proses sebelumnya terdapat pada list
+13. Memastikan bahwa icon pencarian ditampilkan di pojok kanan atas
+14. Memaberikan tindakan klik pada icon pencarian 
+15. Memastikan bahwa suatu text "Genoa" ditampilkan 
+16. teakan tombol kemabali
+
+III. Add Last Event
+1. Aplikasi terbuka dan menampilkan beberapa view
+2. Memastikan bahwa terdapat "bottom navigation" dengan item home" dan memberikan tindakan klik
+3. Memastikan bahwa terdapat list dengan beberapa item "league" yang ditampilkan
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 4
+5. Memberikan tindakan klik pada item untuk posisi ke 4
+6. Memastikan terdapat icon di pojok kanan atas setelah proses klik sebelumnya
+7. Memberikan tindakan klik pada icon tersebut
+8. Memastikan terdapat tiga item di bottom navigation "item standing, item event, item team"
+9. Memastikan bahwa terdapat sebuah list dengan beberapa "klub sepak bola" yang ditampilkan
+10. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 2
+11. Memberikan tindakan klik pada item untuk posisi ke 2
+12. Memastikan icon dipojok kanan atas ditampilkan
+13. Meberikan tindakan klik pada icon tersebut
+14. Memastikan "Data Added to Favorite" ditampilkan karna proses sebelumnya
+15. Menekan tombol kembali sebanyak 4 kali untuk kembali ke menu utama
+16. Memberikan tombol klik pada item "Favorite"
+17. Memastikan list ditampilkan dengan beberapa item didalamnya
+18. Memberikan tindakan klik pada item untuk posisi pertama
+19. Memastikan icon dipojok kanan atas ditampilkan
+20. Memberikan tindakan pada ikon tersebut
+21. Memastikan "Data Has Been Deleted" ditampilkan
+
+IV. Search event
+1. Aplikasi terbuka dan menampilkan beberapa view
+2. Memastikan bahwa terdapat "bottom navigation" dengan item home" dan memberikan tindakan klik
+3. Memastikan bahwa terdapat list dengan beberapa item "league" yang ditampilkan
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 4
+5. Memberikan tindakan klik pada item untuk posisi ke 4
+6. Memastikan terdapat icon di pojok kanan atas setelah proses klik sebelumnya
+7. Memberikan tindakan klik pada icon tersebut
+8. Memastikan terdapat tiga item di bottom navigation "item standing, item event, item team"
+9. memberikan tindakan klik pada item "Event"
+10. Memastikan icon search dipojok kanan atas ditampilkan
+11. Memeberikan tindakan klik pada icon tersebut
+12. Memastikan teks "Everton" ditampilkan 
+13. Memastikan hasil dari proses sebelumnya ditampilkan pada list
+14. Memastikan icon search dipojok kanan atas ditampilkan
+15. Memeberikan tindakan klik pada icon tersebut dan memastikan teks "Genoa" ditampilkan di pada list
+
+V. Add next event
+1. Aplikasi terbuka dan menampilkan beberapa view
+2. Memastikan bahwa terdapat "bottom navigation" dengan item home" dan memberikan tindakan klik
+3. Memastikan bahwa terdapat list dengan beberapa item "league" yang ditampilkan
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 4
+5. Memberikan tindakan klik pada item untuk posisi ke 4
+6. Memastikan terdapat icon di pojok kanan atas setelah proses klik sebelumnya
+7. Memberikan tindakan klik pada icon tersebut
+8. Memastikan terdapat tiga item di bottom navigation "item standing, item event, item team"
+9. memberikan tindakan klik pada item "Event"
+10. Memastikan tindakan geser ke ke kiri berjalan dengan baik
+4. Memastikan bahwa list dapat di scroll dengan baik ke posisi item ke 2
+11. Memberikan tindakan klik pada item untuk posisi ke 2
+12. Memastikan icon dipojok kanan atas ditampilkan setelah proses sebelumnya
+13.Memberikan tindakan klik pada icon tersebut
+14.Memastikan "Data Added to Favorite" ditampilkan
+15 Memberikan tindakan kembali sebanyak tiga kali untuk kembali ke menu utama
+16. Memastikan item "Favorite" ditampilkan
+17 memastikan tindakan geser ke kiri berjalan dengan baik
+18. Memastikan list ditampilkan dengan item didalamnya
+19. Memberikan tindakan klik pada item di posisi pertama
+20. Memastikan icon di pojok kanan atas ditampilkan
+21. meberikan tindakan pada icon tersebut
+22. Memastikan "Data Has Been Deleted" ditampilkan 
+
+
